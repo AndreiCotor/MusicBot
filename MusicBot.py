@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands, tasks
 from discord.voice_client import VoiceClient
 import youtube_dl
+import os
 
 from random import choice
 
