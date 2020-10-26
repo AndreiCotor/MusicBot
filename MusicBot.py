@@ -51,6 +51,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
 
 client = commands.Bot(command_prefix='?')
+discord.opus.load_opus()
 
 status = ['Jamming out to music!', 'Eating!', 'Sleeping!']
 queue = []
